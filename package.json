@@ -1,0 +1,15 @@
+{
+  "name": "emailblackhole",
+  "version": "0.1.0",
+  "description": "Test email in Playwright, Cypress and CI with Email Blackhole: wait for the email your app sends and read its link or code. No signup, no dependencies.",
+  "keywords": ["email-testing", "dummy-smtp", "smtp", "playwright", "cypress", "e2e", "ci", "password-reset", "magic-link", "mailtrap-alternative"],
+  "homepage": "https://emailblackhole.io/docs/playwright",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.js" }
+}
